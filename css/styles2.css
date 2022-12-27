@@ -1,0 +1,256 @@
+/* General Styles */
+
+body
+{
+    background-color: #333333;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #eeecec;
+    overflow-x: hidden;
+}
+
+.background
+{
+    background: url('adidas.jpg');
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.btn-primary,.btn-primary:hover
+{
+    background-color: #2be2a5;
+    border-color: #2be2a5;
+}
+
+.btn
+{
+    background-color: #1d1d1d;
+}
+
+h2
+{
+    font-size: 36px;
+    font-weight: 400;
+    color: #2be2a5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #2be2a5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Profile Styles */
+
+.profile h2
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.profile .info
+{
+    margin-top: 150px;
+}
+
+h6
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: #2be2a5;
+    text-align: center;
+}
+
+
+/* Customer Styles */
+
+#customersTable{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+    
+}
+
+#customers 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.grid-cards
+{
+    display: grid;
+    grid-template-columns:repeat(3,max-content);
+    gap: 10px;
+}
+  
+#customers td, #customers th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+   
+#customersTable th 
+{
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #04AA6D;
+color: #333333;
+}
+
+#customers td 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+}
+
+#customers img
+{
+    height: 10%;
+    width: 40%;
+}
+
+#customers th
+{
+    height: 3%;
+    width: 3%;
+}
+#customers td
+{
+    height: 3%;
+    width: 3%;
+}
+
+#right
+{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+
+/* Latest Products - Store Products Styles */
+
+#content
+{
+    padding-top: 45px;
+    
+}
+
+
+
+
+
+.product
+{
+    background: #1d1d1d;
+    border: solid 1px #e6e6e6;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    display: grid;
+    
+}
+
+
+
+.product .text
+{
+    padding: 10px 10px 0px;
+}
+.product .text p.price
+{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+.product .text .button
+{
+    text-align: center;
+    clear: both;
+}
+.product .text .button .btn
+{
+    margin-bottom: 10px;
+}
+.product .text h3
+{
+    text-align: center;
+    font-size: 20px;
+}
+.product .text h3 a
+{
+    color: #e9e5e5;
+}
+
+
+
+/*  Button  */
+
+.btn-default, .btn-default:hover
+{
+    background-color: #0eec90;
+    border-color: #2be2a5;
+}
+
+/* Details */
+
+.price
+{
+    font-size: 15pt;
+}
+
+.pro_title
+{
+    text-align: center;
+    padding-bottom: 10pt;
+
+}
+
+
+/* Cart */
+
+.total_price
+{
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 15pt;
+}
+
+.addRemButtons{
+    position: relative;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: none;
+    background-color: #212121;
+    border: 1px solid rgb(62, 255, 145);
+    border-radius: 5px;
+    transition: color 100ms ease-in-out,background-color 100ms ease-in-out,border 100ms ease-in-out;
+}
+
+.addRemButtons:hover{
+    color: black;
+    background-color: rgb(0, 255, 157);
+    border: 1px solid black;
+}
