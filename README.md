@@ -1,5 +1,5 @@
 ## E-Commerce-Clothing
-#### A Project for University Using HTML,CSS,BOOTSTRAP AND PHP.
+#### A Project for University Using HTML,CSS,BOOTSTRAP,PHP,JS.
 ##### I did it as responsive i could in limited time without Javascript.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/44063119/209812543-c0476c80-10b5-446a-a56b-c668d396de4d.png)
