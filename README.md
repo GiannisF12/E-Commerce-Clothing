@@ -21,7 +21,8 @@ Prerequisites
 	•	MySQL server (e.g., XAMPP, WAMP, or MAMP).
 
 Installation
-	1.	Clone the repository:
+
+1.	Clone the repository:
 
 		git clone https://github.com/GiannisF12/E-Commerce-Clothing.git
 
