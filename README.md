@@ -1,6 +1,58 @@
-## E-Commerce-Clothing
-#### A Project for University Using HTML,CSS,BOOTSTRAP,PHP,JS.
-##### I did it as responsive i could in limited time without Javascript.
+E-Commerce Clothing
+
+An academic project developed using PHP, HTML, CSS, Bootstrap, and JavaScript, simulating a responsive online clothing store.
+
+📦 Features
+	•	User Authentication: Registration and login functionalities.
+	•	Product Catalog: Display of products fetched from a MySQL database.
+	•	Shopping Cart: Add and remove items from the cart.
+	•	Responsive Design: Layout adapts to various screen sizes using Bootstrap.
+	•	Admin Panel: Manage products and view orders.
+
+🛠 Technologies Used
+	•	Frontend: HTML, CSS, Bootstrap, JavaScript
+	•	Backend: PHP
+	•	Database: MySQL
+
+🚀 Getting Started
+
+Prerequisites
+	•	PHP installed on your machine.
+	•	MySQL server (e.g., XAMPP, WAMP, or MAMP).
+
+Installation
+	1.	Clone the repository:
+
+git clone https://github.com/GiannisF12/E-Commerce-Clothing.git
+
+2.	Set up the database:
+	•	Import the complete.sql file into your MySQL server to create the necessary database and tables.
+	3.	Configure database connection:
+	•	Update the database credentials in the relevant PHP files (e.g., includes/db.php) to match your MySQL configuration.
+	4.	Run the application:
+	•	Place the project folder in your web server’s root directory (e.g., htdocs for XAMPP).
+	•	Start your web server and navigate to http://localhost/E-Commerce-Clothing in your browser.
+
+📁 Project Structure
+
+E-Commerce-Clothing/
+├── admin/              # Admin panel files
+├── css/                # Stylesheets
+├── font-awsome/        # Font Awesome icons
+├── img/                # Images used in the project
+├── includes/           # PHP includes (e.g., header, footer)
+├── js/                 # JavaScript files
+├── cart.php            # Shopping cart functionality
+├── complete.sql        # Database schema and sample data
+├── details.php         # Product details page
+├── index.php           # Homepage
+├── login.php           # User login page
+├── register.php        # User registration page
+├── settings.php        # User settings page
+├── store.php           # Store page displaying products
+└── README.md           # Project documentation
+
+📷 Screenshots
 
 ![Screenshot_1](https://user-images.githubusercontent.com/44063119/209812543-c0476c80-10b5-446a-a56b-c668d396de4d.png)
 
