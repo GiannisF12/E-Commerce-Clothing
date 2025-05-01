@@ -23,7 +23,7 @@ Prerequisites
 Installation
 	1.	Clone the repository:
 
-git clone https://github.com/GiannisF12/E-Commerce-Clothing.git
+		git clone https://github.com/GiannisF12/E-Commerce-Clothing.git
 
 2.	Set up the database:
 	•	Import the complete.sql file into your MySQL server to create the necessary database and tables.
@@ -34,7 +34,7 @@ git clone https://github.com/GiannisF12/E-Commerce-Clothing.git
 	•	Start your web server and navigate to http://localhost/E-Commerce-Clothing in your browser.
 
 📁 Project Structure
-
+```
 E-Commerce-Clothing/
 ├── admin/              # Admin panel files
 ├── css/                # Stylesheets
@@ -51,7 +51,7 @@ E-Commerce-Clothing/
 ├── settings.php        # User settings page
 ├── store.php           # Store page displaying products
 └── README.md           # Project documentation
-
+```
 📷 Screenshots
 
 ![Screenshot_1](https://user-images.githubusercontent.com/44063119/209812543-c0476c80-10b5-446a-a56b-c668d396de4d.png)
