@@ -14,7 +14,9 @@ services:
       - img_uploads:/var/www/html/img
 
   db:
-    image: mysql:8.0
+    build:
+      context: .
+      dockerfile: Dockerfile.db
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: ${DB_NAME:-complete}
@@ -23,7 +25,6 @@ services:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootsecret}
     volumes:
       - db_data:/var/lib/mysql
-      - ./complete.sql:/docker-entrypoint-initdb.d/complete.sql:ro
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s
