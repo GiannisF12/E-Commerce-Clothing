@@ -1,0 +1,6 @@
+.git
+.DS_Store
+.env
+docker-compose.yml
+README.md
+notes.txt

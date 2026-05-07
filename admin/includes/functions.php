@@ -1,11 +1,11 @@
 <?php 
 
-$server = "localhost";
-$user = "root";
-$pass = "";
-$database = "complete";
-
-$conn = mysqli_connect($server, $user, $pass, $database);
+$conn = mysqli_connect(
+    getenv('DB_HOST') ?: 'localhost',
+    getenv('DB_USER') ?: 'root',
+    getenv('DB_PASSWORD') ?: '',
+    getenv('DB_NAME') ?: 'complete'
+);
 
 if (!$conn) 
 {

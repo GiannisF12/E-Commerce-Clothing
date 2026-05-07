@@ -1,7 +1,12 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "root", "", "complete");
+$conn = mysqli_connect(
+    getenv('DB_HOST') ?: 'localhost',
+    getenv('DB_USER') ?: 'root',
+    getenv('DB_PASSWORD') ?: '',
+    getenv('DB_NAME') ?: 'complete'
+);
 
 if (!$conn) 
 {
