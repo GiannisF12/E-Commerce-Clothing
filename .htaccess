@@ -1,0 +1,14 @@
+# Block access to sensitive files
+<FilesMatch "\.(sql|yml|yaml|md|txt|sh|ini|env|json|lock|bak|log|git)$">
+    Require all denied
+</FilesMatch>
+
+# Block .git directory
+<DirectoryMatch "^/.git/">
+    Require all denied
+</DirectoryMatch>
+
+# Block hidden files (starting with .)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
