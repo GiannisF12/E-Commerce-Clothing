@@ -1,14 +1,12 @@
 # Block access to sensitive files
-<FilesMatch "\.(sql|yml|yaml|md|txt|sh|ini|env|json|lock|bak|log|git)$">
+<FilesMatch "\.(sql|yml|yaml|md|txt|sh|ini|env|json|lock|bak|log)$">
     Require all denied
 </FilesMatch>
 
-# Block .git directory
-<DirectoryMatch "^/.git/">
-    Require all denied
-</DirectoryMatch>
-
-# Block hidden files (starting with .)
+# Block hidden files and .git (starting with .)
 <FilesMatch "^\.">
     Require all denied
 </FilesMatch>
+
+# Block .git directory traversal
+RedirectMatch 404 /\.git
